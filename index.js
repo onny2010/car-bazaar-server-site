@@ -150,7 +150,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("Hello Car Market");
+  res.send("Welocome To CarBAZAAR");
 });
 
 const port = process.env.PORT || 5000;
